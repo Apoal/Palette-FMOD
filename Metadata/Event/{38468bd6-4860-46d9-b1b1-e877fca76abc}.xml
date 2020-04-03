@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>Test3D</value>
 		</property>
+		<property name="note">
+			<value>Test3D Water Drop</value>
+		</property>
 		<property name="outputFormat">
 			<value>2</value>
 		</property>
