@@ -2,9 +2,8 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Workspace" id="{39710374-4374-4b1b-b7b3-6d47ca600efd}">
 		<property name="builtBanksOutputDirectory">
-			<value>../../../Unity Git/FMODAssets</value>
+			<value>../../../Palette - Git/Palette_URP/Assets/FMODAssets</value>
 		</property>
-		<property name="builtBanksEncryptionKey" />
 		<relationship name="masterEventFolder">
 			<destination>{3c087c73-a3c1-4f4c-a05e-adcaaee6bcb0}</destination>
 		</relationship>
