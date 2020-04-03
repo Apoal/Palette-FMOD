@@ -75,6 +75,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{6afe9c3f-37e5-4527-a9ec-d2f29d4e23dc}">
+		<property name="volume">
+			<value>-10</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{fb2584cd-6587-4ea6-8a3d-8636b6f2fe62}</destination>
 		</relationship>
@@ -131,6 +134,7 @@
 		<relationship name="effects">
 			<destination>{dbecb75a-1e79-4bac-8070-583a59b3ccea}</destination>
 			<destination>{aae6ae11-6705-47a8-9918-873ac3f6c0d6}</destination>
+			<destination>{cfbcc782-afc4-4271-8edc-407b9b7c255c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f14c794a-98fb-4b25-8951-327d4a85eb05}" />
@@ -143,11 +147,52 @@
 	<object class="MixerBusPanner" id="{e0494a3a-45bf-494e-a2f4-1c67be6458fe}" />
 	<object class="MixerBusFader" id="{dbecb75a-1e79-4bac-8070-583a59b3ccea}" />
 	<object class="SpatialiserEffect" id="{aae6ae11-6705-47a8-9918-873ac3f6c0d6}">
+		<property name="distanceRolloffType">
+			<value>3</value>
+		</property>
 		<property name="minimumDistance">
-			<value>750</value>
+			<value>200</value>
 		</property>
 		<property name="maximumDistance">
-			<value>5200</value>
+			<value>10000</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>0.799999952</value>
+		</property>
+		<property name="minimumExtent">
+			<value>172</value>
+		</property>
+		<property name="userLFELevel">
+			<value>-23</value>
+		</property>
+		<property name="LFEUpmixEnabled">
+			<value>true</value>
+		</property>
+	</object>
+	<object class="TremoloEffect" id="{cfbcc782-afc4-4271-8edc-407b9b7c255c}">
+		<property name="frequency">
+			<value>1</value>
+		</property>
+		<property name="depth">
+			<value>0.895000041</value>
+		</property>
+		<property name="shape">
+			<value>0.280000031</value>
+		</property>
+		<property name="skew">
+			<value>0.5</value>
+		</property>
+		<property name="square">
+			<value>0.235000014</value>
+		</property>
+		<property name="phase">
+			<value>0.360000014</value>
+		</property>
+		<property name="spread">
+			<value>0.439999998</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{658132ae-b4ad-463c-b040-e0030a641314}" />
