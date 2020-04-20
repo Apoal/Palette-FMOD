@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="Snapshot" id="{697bab4e-f474-411a-8646-2af1f7c4ffd9}">
+		<property name="name">
+			<value>Atm_Forest</value>
+		</property>
+		<property name="behavior">
+			<value>1</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{2076b5cb-3362-424e-9d67-b47a841692af}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{ebf5bef4-96f4-4f82-8662-8f19ac749341}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{973699b8-ada1-4498-8e76-43891d7bb4bc}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{3a2f0492-fd65-4845-b17c-60d149923d5b}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{eb40be75-2e3b-4845-b748-0e8900b7272a}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{ebf5bef4-96f4-4f82-8662-8f19ac749341}" />
+	<object class="MarkerTrack" id="{973699b8-ada1-4498-8e76-43891d7bb4bc}" />
+	<object class="Timeline" id="{3a2f0492-fd65-4845-b17c-60d149923d5b}" />
+	<object class="SnapshotMasterTrack" id="{eb40be75-2e3b-4845-b748-0e8900b7272a}" />
+</objects>
