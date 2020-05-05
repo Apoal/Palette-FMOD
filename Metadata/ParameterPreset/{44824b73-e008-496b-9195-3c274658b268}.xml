@@ -12,19 +12,17 @@
 		</relationship>
 	</object>
 	<object class="GameParameter" id="{dd2eeb76-f3a2-4555-adeb-1ec550b19cdf}">
-		<property name="parameterType">
-			<value>2</value>
+		<property name="minimum">
+			<value>1</value>
 		</property>
 		<property name="maximum">
 			<value>3</value>
 		</property>
-		<property name="enumerationLabels">
-			<value>Forest</value>
-			<value>Pond</value>
-			<value>Value C</value>
-		</property>
 		<property name="initialValue">
-			<value>0</value>
+			<value>1</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.15999999642372131</value>
 		</property>
 	</object>
 </objects>

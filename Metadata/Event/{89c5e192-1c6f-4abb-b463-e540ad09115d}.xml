@@ -5,7 +5,7 @@
 			<value>Wind</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a19888fe-7a51-4495-8d89-c5343451c516}</destination>
@@ -423,7 +423,17 @@
 			<destination>{35c67ba0-5bd8-4760-b11f-1f156c7a02db}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{492e99a3-38b7-4522-be32-53e117b3d20c}" />
+	<object class="MixerBusPanner" id="{492e99a3-38b7-4522-be32-53e117b3d20c}">
+		<property name="surroundStereoSeparation">
+			<value>77.5799866</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="FadeCurve" id="{c5dbbfd3-ea26-47c2-a54d-53b325d18ad0}">
 		<relationship name="startPoint">
 			<destination>{f528dfea-40b5-49e1-9150-62310b9e32e0}</destination>
@@ -475,7 +485,17 @@
 			<destination>{2a73c2da-bc7f-4ef8-91f0-22838f0e283a}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{d97d478f-0c79-434e-ace3-66e0bc76bd9a}" />
+	<object class="MixerBusPanner" id="{d97d478f-0c79-434e-ace3-66e0bc76bd9a}">
+		<property name="surroundStereoSeparation">
+			<value>99.1703568</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="FadeCurve" id="{3a219e0e-7b32-4633-aa84-cffc7425d8d2}">
 		<relationship name="startPoint">
 			<destination>{cd210a29-22f9-4a1a-8bfe-b5fe411de04c}</destination>
@@ -527,7 +547,17 @@
 			<destination>{cde3bece-058e-4c7f-8057-1953969e3dec}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{7305159a-d24f-48fe-abd4-34133ca85d73}" />
+	<object class="MixerBusPanner" id="{7305159a-d24f-48fe-abd4-34133ca85d73}">
+		<property name="surroundStereoSeparation">
+			<value>96.1704483</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="TransitionTimeline" id="{d6410a65-2144-427d-86ce-b436c7a87098}">
 		<property name="length">
 			<value>5</value>
@@ -926,7 +956,7 @@
 			<value>4.0197044334975374</value>
 		</property>
 		<property name="value">
-			<value>-24</value>
+			<value>-35.1999969</value>
 		</property>
 		<property name="curveShape">
 			<value>0.36849755</value>
@@ -937,7 +967,7 @@
 			<value>6</value>
 		</property>
 		<property name="value">
-			<value>-16</value>
+			<value>-23.9999981</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{a687a904-ebb9-41fc-8351-e3f4c4cfe4f0}">
@@ -945,7 +975,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-58.6116295</value>
+			<value>-8</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.163999677</value>
