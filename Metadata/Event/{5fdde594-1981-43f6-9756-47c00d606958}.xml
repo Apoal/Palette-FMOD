@@ -102,6 +102,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{8cda7821-3864-4114-9ee9-99cff5d533da}">
+		<property name="volume">
+			<value>-3.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{35e32b30-c81b-49d3-89fc-22212dc93598}</destination>
 		</relationship>
@@ -215,9 +218,6 @@
 		<property name="length">
 			<value>2</value>
 		</property>
-		<property name="volume">
-			<value>1.5</value>
-		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{5c02b3b8-30d4-4b52-9bd2-24b66db4d7e1}</destination>
 		</relationship>
@@ -287,7 +287,17 @@
 			<destination>{5548b3e1-c39d-46bd-b602-2ce16724df19}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{263190c3-9fd1-40c8-9ee6-84502d3ae348}" />
+	<object class="MixerBusPanner" id="{263190c3-9fd1-40c8-9ee6-84502d3ae348}">
+		<property name="surroundStereoSeparation">
+			<value>74.6893921</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="FadeCurve" id="{27ebc3da-c14c-48d2-8089-b9f78d693c07}">
 		<relationship name="startPoint">
 			<destination>{e4788ed2-202a-4eaf-ad1e-d59b7fa52714}</destination>
@@ -321,7 +331,17 @@
 			<destination>{c55f3645-eab0-4108-84e8-fcf90e2fc5ba}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{09905859-bfcf-4e57-8053-3cfc740b90c6}" />
+	<object class="MixerBusPanner" id="{09905859-bfcf-4e57-8053-3cfc740b90c6}">
+		<property name="surroundStereoSeparation">
+			<value>145.291946</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="FadeCurve" id="{66fdbe1d-db86-4eae-ad96-cbdfb56bd62e}">
 		<relationship name="startPoint">
 			<destination>{79271930-e67c-4bb5-b4e8-2cad5c319859}</destination>
@@ -355,7 +375,17 @@
 			<destination>{33e40bc7-5ab5-43c1-993c-54aa68852ed9}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{d64c2302-6ee0-4bfb-9394-f1583b9bad19}" />
+	<object class="MixerBusPanner" id="{d64c2302-6ee0-4bfb-9394-f1583b9bad19}">
+		<property name="surroundStereoSeparation">
+			<value>75.2552109</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="FadeCurve" id="{5c02b3b8-30d4-4b52-9bd2-24b66db4d7e1}">
 		<relationship name="startPoint">
 			<destination>{0d699982-c524-4004-bf62-48b1e3a5d082}</destination>
@@ -365,6 +395,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{b082d9d0-4043-43c2-9a1b-9de5f5ce1d02}">
+		<property name="volume">
+			<value>-4</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{74898875-b708-4462-a5d5-f55e1e23b3f1}</destination>
 		</relationship>
@@ -380,6 +413,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{8560f59b-42b8-4d8a-a518-953dd39acb25}">
+		<property name="volume">
+			<value>-4</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{f41cc4ba-e6fd-4905-8ffc-1ce83cd16b09}</destination>
 		</relationship>
@@ -389,7 +425,17 @@
 			<destination>{be9bab47-a979-46c3-b4d0-c2956e3b1b40}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{9bcb0e81-6224-4310-9701-c4934e930382}" />
+	<object class="MixerBusPanner" id="{9bcb0e81-6224-4310-9701-c4934e930382}">
+		<property name="surroundStereoSeparation">
+			<value>88.2371902</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{db20616f-20d1-4ff8-be41-c8aa160e03ea}" />
 	<object class="SpatialiserEffect" id="{4779438f-9de4-4e82-ba3c-8297cf11e436}">
 		<property name="minimumDistance">
@@ -399,10 +445,10 @@
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>2.20000005</value>
+			<value>0.049999997</value>
 		</property>
 		<property name="minimumExtent">
-			<value>82</value>
+			<value>64</value>
 		</property>
 	</object>
 	<object class="SFXReverbEffect" id="{86132347-9a88-4c10-8de5-d7384756aff7}" />
