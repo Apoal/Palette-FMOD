@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{4ca3c26a-7fce-4c9f-a07f-7c42912ce353}">
 		<property name="name">
-			<value>Collect</value>
+			<value>SFX_Player_Collect</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -102,6 +102,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{81742d67-276b-493a-bf03-e2e60e434d07}">
+		<property name="volume">
+			<value>3</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{412a4c70-4b66-4d6d-86a6-a7767a57ed8a}</destination>
 		</relationship>
@@ -130,6 +133,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{a586bd60-6490-4805-99fa-c4ac77d43083}">
+		<property name="volume">
+			<value>2.5</value>
+		</property>
 		<property name="name">
 			<value>Windy</value>
 		</property>
@@ -155,6 +161,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d4be8432-6faf-459a-9ea9-242b52869f06}">
+		<property name="volume">
+			<value>1.5</value>
+		</property>
 		<property name="name">
 			<value>Woodbells</value>
 		</property>
@@ -180,6 +189,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{265188eb-f287-4717-8eb5-1a01ae692be2}">
+		<property name="volume">
+			<value>-6.5</value>
+		</property>
 		<property name="name">
 			<value>Harmonics</value>
 		</property>
@@ -205,6 +217,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{4490ac8b-e786-4500-b3c4-92871c252d4e}">
+		<property name="volume">
+			<value>1.5</value>
+		</property>
 		<property name="name">
 			<value>Pad</value>
 		</property>
@@ -251,7 +266,17 @@
 			<destination>{e9c78044-437c-4f93-bd80-213115eeacd7}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{b35a6e07-b7eb-4b3d-8ec6-40a2fa9c1bdb}" />
+	<object class="MixerBusPanner" id="{b35a6e07-b7eb-4b3d-8ec6-40a2fa9c1bdb}">
+		<property name="surroundStereoSeparation">
+			<value>75.4369888</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{57a5221a-de1c-4dc3-ac5d-8a80e0d7b84b}">
 		<relationship name="audioFile">
 			<destination>{de2ef48b-9aaf-48aa-ac03-d761e2ae9bd3}</destination>
@@ -277,7 +302,17 @@
 			<destination>{ae507f0b-f0fe-4392-a55d-8fbda53f678e}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{770674df-0a43-48de-a97b-6bdf11ec7382}" />
+	<object class="MixerBusPanner" id="{770674df-0a43-48de-a97b-6bdf11ec7382}">
+		<property name="surroundStereoSeparation">
+			<value>126.869896</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{9e15ae5d-8f14-4acc-81cf-9ed7821415e7}">
 		<relationship name="audioFile">
 			<destination>{09c87e5d-a7fe-4c0a-9ee5-e78a5dfd3763}</destination>
@@ -303,7 +338,17 @@
 			<destination>{1ab4ceea-d107-4228-82cb-f1e7e384da28}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{b83e2b30-4bdd-41af-ad13-9a1acfba90d8}" />
+	<object class="MixerBusPanner" id="{b83e2b30-4bdd-41af-ad13-9a1acfba90d8}">
+		<property name="surroundStereoSeparation">
+			<value>92.7596817</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{23e30797-c51b-405d-b57c-a785335b9962}">
 		<relationship name="audioFile">
 			<destination>{bf3f2f23-c8cc-4f89-9e74-4b2722b5af1d}</destination>
@@ -329,17 +374,30 @@
 			<destination>{6184cd08-a050-4a30-8229-a9cf1a44a090}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{9c92e15d-67ca-417b-b13d-964c3aab2635}" />
+	<object class="MixerBusPanner" id="{9c92e15d-67ca-417b-b13d-964c3aab2635}">
+		<property name="surroundStereoSeparation">
+			<value>80.29879</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{529cd4fc-caa1-4944-90d0-a5f951e1c3ff}" />
 	<object class="SpatialiserEffect" id="{a44b8511-3244-4ae0-bba3-51c688b00829}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
 		<property name="extentMode">
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>0.349999964</value>
+			<value>3</value>
 		</property>
 		<property name="minimumExtent">
-			<value>60</value>
+			<value>106</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{e9c78044-437c-4f93-bd80-213115eeacd7}" />

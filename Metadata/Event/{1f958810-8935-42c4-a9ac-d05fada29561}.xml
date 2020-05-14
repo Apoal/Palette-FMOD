@@ -146,6 +146,9 @@
 		<property name="name">
 			<value>Birds</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{9f84664f-1a98-4af0-8d1b-700597866ed6}</destination>
+		</relationship>
 		<relationship name="fadeInCurve">
 			<destination>{4b49cbf3-b139-4c23-96f3-596131a45c89}</destination>
 		</relationship>
@@ -185,6 +188,9 @@
 		<property name="name">
 			<value>Insects</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{11695085-f1ef-4d30-980d-b6faf2960043}</destination>
+		</relationship>
 		<relationship name="fadeInCurve">
 			<destination>{4f9ddf4b-d92f-4274-aa16-36fecdd72db9}</destination>
 		</relationship>
@@ -224,6 +230,9 @@
 		<property name="name">
 			<value>SmallAnimals</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{e7736fea-2379-4044-9322-236d076cbc6b}</destination>
+		</relationship>
 		<relationship name="fadeInCurve">
 			<destination>{05dce4af-d6a8-46a1-b815-6cdf8d3ed94a}</destination>
 		</relationship>
@@ -272,6 +281,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{5966222f-19de-4cfd-b0df-5dc602eba0f4}" />
 	<object class="MixerBusFader" id="{56a24f36-4cae-4246-a2b0-26611c74ca6c}" />
+	<object class="ParameterCondition" id="{9f84664f-1a98-4af0-8d1b-700597866ed6}">
+		<property name="minimum">
+			<value>5.0999999046325684</value>
+		</property>
+		<property name="maximum">
+			<value>12</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{17214e9c-5784-4625-beb2-f577d9734d7c}</destination>
+		</relationship>
+	</object>
 	<object class="FadeCurve" id="{4b49cbf3-b139-4c23-96f3-596131a45c89}">
 		<relationship name="startPoint">
 			<destination>{9056ad42-d934-43f8-9d4c-97607e95716a}</destination>
@@ -303,6 +323,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2cb94261-d73c-47ff-b0bc-47a99ab3288a}" />
+	<object class="ParameterCondition" id="{11695085-f1ef-4d30-980d-b6faf2960043}">
+		<property name="minimum">
+			<value>5.0999999046325684</value>
+		</property>
+		<property name="maximum">
+			<value>12</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{17214e9c-5784-4625-beb2-f577d9734d7c}</destination>
+		</relationship>
+	</object>
 	<object class="FadeCurve" id="{4f9ddf4b-d92f-4274-aa16-36fecdd72db9}">
 		<relationship name="startPoint">
 			<destination>{9804c76b-27a1-4754-9050-9a886d7fd73d}</destination>
@@ -334,6 +365,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e0bd6a63-7f05-4089-986d-632fe80d355c}" />
+	<object class="ParameterCondition" id="{e7736fea-2379-4044-9322-236d076cbc6b}">
+		<property name="minimum">
+			<value>5.0999999046325684</value>
+		</property>
+		<property name="maximum">
+			<value>12</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{17214e9c-5784-4625-beb2-f577d9734d7c}</destination>
+		</relationship>
+	</object>
 	<object class="FadeCurve" id="{05dce4af-d6a8-46a1-b815-6cdf8d3ed94a}">
 		<relationship name="startPoint">
 			<destination>{d9c2359b-5c65-48a5-9392-5b223c611c5a}</destination>

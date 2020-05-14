@@ -472,11 +472,14 @@
 		<property name="lowGain">
 			<value>-80</value>
 		</property>
+		<property name="highGain">
+			<value>3</value>
+		</property>
 		<property name="lowCrossover">
 			<value>560</value>
 		</property>
 		<property name="highCrossover">
-			<value>700</value>
+			<value>1350</value>
 		</property>
 		<property name="crossoverSlope">
 			<value>0</value>

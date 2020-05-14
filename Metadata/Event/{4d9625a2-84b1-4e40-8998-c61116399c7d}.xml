@@ -133,6 +133,9 @@
 		<property name="name">
 			<value>Frogs</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{2f2a48bb-a640-4311-928d-dd70f1830449}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{f1220073-4289-443d-ad02-1c0cd542ef1b}</destination>
 		</relationship>
@@ -169,6 +172,9 @@
 		<property name="name">
 			<value>Crickets</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{c3465416-429b-4fec-8b17-c669ecc6331e}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{957969ec-ed0e-469c-bd8a-6de5251dc936}</destination>
 		</relationship>
@@ -211,6 +217,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{8f0ef7f4-083c-4843-8483-181f5280a83a}" />
 	<object class="MixerBusFader" id="{bec7f867-3252-4df8-ad7e-7bd00079c57a}" />
+	<object class="ParameterCondition" id="{2f2a48bb-a640-4311-928d-dd70f1830449}">
+		<property name="minimum">
+			<value>5.0999999046325684</value>
+		</property>
+		<property name="maximum">
+			<value>12</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{17214e9c-5784-4625-beb2-f577d9734d7c}</destination>
+		</relationship>
+	</object>
 	<object class="Automator" id="{a726a06e-4054-48da-a30c-1ff083cb3114}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>
@@ -226,6 +243,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{aa8eecd0-3a97-4ee6-a483-74739fd00431}" />
+	<object class="ParameterCondition" id="{c3465416-429b-4fec-8b17-c669ecc6331e}">
+		<property name="minimum">
+			<value>5.0999999046325684</value>
+		</property>
+		<property name="maximum">
+			<value>12</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{17214e9c-5784-4625-beb2-f577d9734d7c}</destination>
+		</relationship>
+	</object>
 	<object class="Automator" id="{f898143a-0623-4611-87cc-184b62419a49}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>

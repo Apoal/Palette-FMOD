@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{f6a2e24f-5876-4fb5-88d0-4fe875858efb}">
 		<property name="name">
-			<value>Apply_Puzzle</value>
+			<value>SFX_Player_Apply_Puzzle</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -110,6 +110,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{7c403875-63bb-42c3-a9dd-62ec168c2aeb}">
+		<property name="volume">
+			<value>3</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{75c00f80-cb26-40a8-88f4-b972ba70d086}</destination>
 		</relationship>
@@ -423,6 +426,9 @@
 	<object class="MixerBusPanner" id="{5d29a09a-2cce-443e-8489-a534d00d2bd2}" />
 	<object class="MixerBusFader" id="{c07f65bd-64e7-4eb1-853f-3a1f95c36223}" />
 	<object class="SpatialiserEffect" id="{7fb97354-0a2b-4897-8ede-ecfc472b4786}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
 		<property name="extentMode">
 			<value>1</value>
 		</property>
