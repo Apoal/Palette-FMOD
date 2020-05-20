@@ -104,7 +104,7 @@
 			<value>8000</value>
 		</property>
 		<property name="minimumScatterDistance">
-			<value>2.60000014</value>
+			<value>4</value>
 		</property>
 		<property name="maximumScatterDistance">
 			<value>400</value>
@@ -214,6 +214,9 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{b78280bf-36d0-472a-985e-3a0ed905ae64}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<property name="playlistMode">
 			<value>1</value>
 		</property>
