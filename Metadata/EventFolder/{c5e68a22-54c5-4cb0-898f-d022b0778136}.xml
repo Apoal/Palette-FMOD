@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EventFolder" id="{c5e68a22-54c5-4cb0-898f-d022b0778136}">
+		<property name="name">
+			<value>PileCrop</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ff30db2a-d21f-4015-b97b-d66879e74e78}</destination>
+		</relationship>
+	</object>
+</objects>

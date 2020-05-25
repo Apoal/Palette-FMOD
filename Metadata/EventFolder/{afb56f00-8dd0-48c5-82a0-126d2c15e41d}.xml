@@ -5,7 +5,7 @@
 			<value>Cloud</value>
 		</property>
 		<relationship name="folder">
-			<destination>{1c44d453-6e77-4e58-be44-4d46b0df929b}</destination>
+			<destination>{ef253d21-593b-4a43-b610-dbae1395620b}</destination>
 		</relationship>
 	</object>
 </objects>

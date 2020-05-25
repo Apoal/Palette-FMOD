@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{0cc30c3b-b168-45ea-9c47-8c4739cc705b}">
 		<property name="name">
-			<value>SFX_Bush</value>
+			<value>SFX_Bush_Morph</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{ad913646-0055-462a-9059-fbeea73af666}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{0b63b5f6-940c-49ce-9745-9a0f65d13376}</destination>
 		</relationship>
