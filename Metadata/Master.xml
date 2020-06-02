@@ -24,6 +24,9 @@
 		<property name="overridingOutputFormat">
 			<value>2</value>
 		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{5cbd2ea0-d6b6-4516-b266-06c55c8760d3}" />
 	<object class="LoudnessMeter" id="{3026bfad-5f5e-49b0-b3fb-3c8b058d807e}" />

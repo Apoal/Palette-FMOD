@@ -238,10 +238,10 @@
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>10000</value>
+			<value>9.5</value>
 		</property>
 		<property name="minimumExtent">
-			<value>360</value>
+			<value>80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{575588fd-f670-43e0-b34b-09b4751f73b5}">

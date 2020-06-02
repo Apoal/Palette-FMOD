@@ -5,7 +5,7 @@
 			<value>SFX_PileWater_Morph</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8ead6e2d-921d-4d00-bbd2-f36c40231319}</destination>
@@ -82,6 +82,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{2daf5ff4-154f-4ced-93f1-28b85595a806}">
+		<property name="volume">
+			<value>6.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{10733574-029f-4912-b693-84b1be067ae5}</destination>
 		</relationship>
@@ -99,11 +102,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{71ac43ae-400a-4c28-8cff-afa63ef0d3d6}" />
 	<object class="MultiSound" id="{f24dab17-cc60-4464-a2bd-2a6e8c73c60c}">
+		<property name="start">
+			<value>0.20000000000000001</value>
+		</property>
 		<property name="length">
 			<value>2.6666666666666665</value>
 		</property>
 		<property name="volume">
-			<value>6</value>
+			<value>10</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{d13cc25b-d99a-42fa-bdc9-ea2af9694f7b}</destination>
@@ -127,11 +133,14 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{ee10103c-33c9-4f0c-af34-688098e4388e}">
+		<property name="start">
+			<value>0.20000000000000001</value>
+		</property>
 		<property name="length">
 			<value>2.6000000000000001</value>
 		</property>
 		<property name="volume">
-			<value>9.5</value>
+			<value>10</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{4c99f9df-6cbd-483a-9190-b9e2007ceb87}</destination>
@@ -157,6 +166,7 @@
 	<object class="MixerBusEffectChain" id="{10733574-029f-4912-b693-84b1be067ae5}">
 		<relationship name="effects">
 			<destination>{87623f0b-1c46-44bd-aa9a-ed6a62ad6f27}</destination>
+			<destination>{54e211e2-2be0-435f-8c3b-d53773caec03}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2a2c8efe-7251-468a-9e3b-892b53c9eef1}" />
@@ -214,6 +224,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{8e8ae3ed-ee76-4589-abcb-400fb7e9835c}" />
 	<object class="MixerBusFader" id="{87623f0b-1c46-44bd-aa9a-ed6a62ad6f27}" />
+	<object class="SpatialiserEffect" id="{54e211e2-2be0-435f-8c3b-d53773caec03}" />
 	<object class="MixerBusFader" id="{6f2f09de-7620-45d5-903c-d9c51172b8a2}" />
 	<object class="MixerBusFader" id="{8f302a6c-89a3-4abb-86b0-29fd88bfcab0}" />
 </objects>

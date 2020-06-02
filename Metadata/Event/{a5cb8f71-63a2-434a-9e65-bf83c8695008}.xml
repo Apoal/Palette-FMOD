@@ -83,7 +83,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{50e55e67-6ac4-47fc-9338-d4c5d23d2349}">
 		<property name="volume">
-			<value>4</value>
+			<value>10</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{02c8032a-4164-43bb-bef3-857bb8be688c}</destination>
@@ -102,6 +102,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{3bfab1d9-4db2-402f-b1d1-949356324559}" />
 	<object class="MultiSound" id="{ba5831a4-68cc-4e0c-ba81-c98c12b904fb}">
+		<property name="start">
+			<value>0.20000000000000001</value>
+		</property>
 		<property name="length">
 			<value>1.366625</value>
 		</property>
@@ -126,6 +129,9 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{2e75f3ea-eba2-4545-8dfe-194f41affb9a}">
+		<property name="start">
+			<value>0.20000000000000001</value>
+		</property>
 		<property name="length">
 			<value>1.3666666666666667</value>
 		</property>

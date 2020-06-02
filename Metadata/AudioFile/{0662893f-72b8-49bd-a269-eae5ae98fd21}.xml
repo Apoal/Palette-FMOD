@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{0662893f-72b8-49bd-a269-eae5ae98fd21}">
+		<property name="assetPath">
+			<value>SFX/Objects/Burning/SFX_Object_Burn_Loop_01.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>30</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d93b1873-55ab-4003-b5f7-2c7715561cd2}</destination>
+		</relationship>
+	</object>
+</objects>

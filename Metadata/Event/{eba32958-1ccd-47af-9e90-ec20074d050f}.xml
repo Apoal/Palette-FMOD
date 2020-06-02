@@ -53,7 +53,7 @@
 			<destination>{fd0fc225-30dd-4205-8dad-6867b5851355}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{318ccea4-2821-4e19-8797-8979c8c717c3}</destination>
+			<destination>{5424a352-b18f-4e7c-bd82-b235a7f9cb9e}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{6fad141b-f600-4116-ac8f-aad36a6db9a4}" />
@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{9f8147d1-b3a4-4ba7-9425-3d0875e2e1fe}">
+		<property name="volume">
+			<value>8</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{8c8ee677-c3fb-43a9-b492-e436d9b61571}</destination>
 		</relationship>
@@ -106,6 +109,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{8779f1a1-25d6-4366-9c02-89c11d72970e}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<property name="name">
 			<value>Idle_01</value>
 		</property>
@@ -157,11 +163,19 @@
 	<object class="MixerBusEffectChain" id="{777d2a27-ce67-41e1-a579-3a4fa7520284}">
 		<relationship name="effects">
 			<destination>{2283e3af-ab79-444f-af49-6e5ca318550e}</destination>
+			<destination>{28c1b965-27b2-4cff-b2ab-989a593e6044}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cebfe242-1ce8-41e8-93ec-411297cb18a7}" />
 	<object class="MixerBusFader" id="{255d4b94-b868-4e9f-8afa-728a8e388608}" />
-	<object class="SpatialiserEffect" id="{cbb969de-8914-4c39-97a3-282da1070197}" />
+	<object class="SpatialiserEffect" id="{cbb969de-8914-4c39-97a3-282da1070197}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="maximumDistance">
+			<value>5</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{0014a7c8-fa32-4540-9823-901842517977}">
 		<property name="position">
 			<value>0</value>
@@ -201,4 +215,15 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{2283e3af-ab79-444f-af49-6e5ca318550e}" />
+	<object class="ThreeEQEffect" id="{28c1b965-27b2-4cff-b2ab-989a593e6044}">
+		<property name="lowGain">
+			<value>-8</value>
+		</property>
+		<property name="midGain">
+			<value>6</value>
+		</property>
+		<property name="highGain">
+			<value>6.5</value>
+		</property>
+	</object>
 </objects>
