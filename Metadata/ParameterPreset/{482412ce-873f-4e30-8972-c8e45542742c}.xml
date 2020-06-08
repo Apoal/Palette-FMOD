@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{482412ce-873f-4e30-8972-c8e45542742c}">
+		<property name="name">
+			<value>Nb_Fire</value>
+		</property>
+		<relationship name="folder">
+			<destination>{51646ba5-00b2-401c-9d40-61a2bb4f6e72}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ea28f573-b93f-4d36-9a28-66256b80801c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ea28f573-b93f-4d36-9a28-66256b80801c}">
+		<property name="maximum">
+			<value>12</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.49999997019767761</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

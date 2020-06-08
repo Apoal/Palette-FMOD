@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{f5343289-6841-44df-8995-b60e3a92e884}">
+		<property name="assetPath">
+			<value>SFX/Interactions/Apply/Puzzle/Full/SFX_Apply_Puzzle_ChordSOLDOMI_06.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.7120000000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d93b1873-55ab-4003-b5f7-2c7715561cd2}</destination>
+		</relationship>
+	</object>
+</objects>

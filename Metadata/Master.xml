@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>Master Bus</value>
 		</property>
+		<relationship name="automators">
+			<destination>{2cc19673-a1dc-485f-ab80-9abb652b5861}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{6b0efe34-0915-4499-aa50-e48a1c47fda3}</destination>
 		</relationship>
@@ -12,6 +15,14 @@
 		</relationship>
 		<relationship name="mixer">
 			<destination>{2076b5cb-3362-424e-9d67-b47a841692af}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{2cc19673-a1dc-485f-ab80-9abb652b5861}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{7be65f5f-109b-4429-81ae-dac92adda2b8}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{6b0efe34-0915-4499-aa50-e48a1c47fda3}">
@@ -28,6 +39,34 @@
 			<value>true</value>
 		</property>
 	</object>
+	<object class="AutomationCurve" id="{7be65f5f-109b-4429-81ae-dac92adda2b8}">
+		<relationship name="parameter">
+			<destination>{79257060-74fb-4d9b-bab8-92686d80d3a4}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{c8ab8d00-5a20-4944-b76c-ad9aff6974e4}</destination>
+			<destination>{d8dd9a1f-bcb0-41e1-a14d-5ade3f69f423}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{5cbd2ea0-d6b6-4516-b266-06c55c8760d3}" />
 	<object class="LoudnessMeter" id="{3026bfad-5f5e-49b0-b3fb-3c8b058d807e}" />
+	<object class="AutomationPoint" id="{c8ab8d00-5a20-4944-b76c-ad9aff6974e4}">
+		<property name="position">
+			<value>0.99858757062146897</value>
+		</property>
+		<property name="value">
+			<value>3.81469727e-06</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{d8dd9a1f-bcb0-41e1-a14d-5ade3f69f423}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.194126949</value>
+		</property>
+	</object>
 </objects>

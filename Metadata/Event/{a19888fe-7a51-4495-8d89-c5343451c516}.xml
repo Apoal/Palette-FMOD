@@ -299,6 +299,9 @@
 		<property name="name">
 			<value>Pond</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{e706d030-e4f1-4dde-ba1b-6a48cc646e16}</destination>
+		</relationship>
 		<relationship name="fadeInCurve">
 			<destination>{d6e1de26-29b7-40eb-92e6-375d21f3590b}</destination>
 		</relationship>
@@ -462,6 +465,7 @@
 		</property>
 		<relationship name="automationCurves">
 			<destination>{2eb638cd-dfa0-4a97-9926-ad5071ca8474}</destination>
+			<destination>{40f75121-70b9-4e9d-98d7-6094e5f4d190}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{8b16a60f-13d5-465d-a87f-144a86a8f256}">
@@ -533,6 +537,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{40fa0488-2679-4a7d-a52e-50a1ee0e702f}" />
+	<object class="ParameterCondition" id="{e706d030-e4f1-4dde-ba1b-6a48cc646e16}">
+		<property name="minimum">
+			<value>1.7999999523162842</value>
+		</property>
+		<property name="maximum">
+			<value>2.2000000476837158</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{dd2eeb76-f3a2-4555-adeb-1ec550b19cdf}</destination>
+		</relationship>
+	</object>
 	<object class="FadeCurve" id="{d6e1de26-29b7-40eb-92e6-375d21f3590b}">
 		<relationship name="startPoint">
 			<destination>{917dcd34-36ec-49c5-8cbc-a53cdcac7755}</destination>
@@ -674,6 +689,16 @@
 			<destination>{5b591fd0-f5ee-41dc-b852-574f774b7b11}</destination>
 			<destination>{51fc96c7-6b5e-4041-b239-d4f2ed5b8000}</destination>
 			<destination>{0102bf5d-d696-4f6b-8cac-a1c16de91eb2}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{40f75121-70b9-4e9d-98d7-6094e5f4d190}">
+		<relationship name="parameter">
+			<destination>{dd2eeb76-f3a2-4555-adeb-1ec550b19cdf}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{82ce6ffb-b3e0-43c7-8790-a225862ecedd}</destination>
+			<destination>{e5c12166-a579-457c-9cbb-57ed2a2d84e7}</destination>
+			<destination>{f8f501bc-5dfe-4816-8e26-be0d4511a751}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{50758c89-3bf1-4b81-9247-7c750d2df05e}" />
@@ -1000,6 +1025,36 @@
 			<value>-80</value>
 		</property>
 	</object>
+	<object class="AutomationPoint" id="{82ce6ffb-b3e0-43c7-8790-a225862ecedd}">
+		<property name="position">
+			<value>3</value>
+		</property>
+		<property name="value">
+			<value>-8</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.36849764</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{e5c12166-a579-457c-9cbb-57ed2a2d84e7}">
+		<property name="position">
+			<value>2</value>
+		</property>
+		<property name="value">
+			<value>3.81469727e-06</value>
+		</property>
+		<property name="curveShape">
+			<value>0.718258381</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{f8f501bc-5dfe-4816-8e26-be0d4511a751}">
+		<property name="position">
+			<value>3.9950738916256157</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{2d6f6892-6479-4095-993f-7a6afa8bcfb9}">
 		<property name="position">
 			<value>0</value>
@@ -1029,10 +1084,10 @@
 	</object>
 	<object class="AutomationPoint" id="{219edbf6-6bd0-486b-9ff4-4df452af708c}">
 		<property name="position">
-			<value>2.5</value>
+			<value>2</value>
 		</property>
 		<property name="value">
-			<value>-8</value>
+			<value>-4</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{ef0c45d9-78f5-4741-a7ee-20a72934ad31}">
@@ -1070,7 +1125,7 @@
 			<value>2</value>
 		</property>
 		<property name="value">
-			<value>-18</value>
+			<value>-13</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{232dd5d1-e26e-47bd-bef9-1c88cec08c2e}">
@@ -1135,7 +1190,7 @@
 			<value>6.0197044334975374</value>
 		</property>
 		<property name="value">
-			<value>-6</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{0daee621-d05c-4329-b2e8-8956401d7d84}">

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{ee203d57-d832-496e-ba58-65dfa57d47f6}">
 		<property name="assetPath">
-			<value>SFX/Interactions/Apply/Puzzle/SFX_Apply_Puzzle_Windy_03.wav</value>
+			<value>SFX/Interactions/Apply/Puzzle/LayerChords/SFX_Apply_Puzzle_Windy_03.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

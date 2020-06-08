@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{81dd75e2-479f-48e5-8280-2e386974007e}">
 		<property name="assetPath">
-			<value>SFX/Interactions/Apply/Puzzle/SFX_Apply_Puzzle_WoodBells_04.wav</value>
+			<value>SFX/Interactions/Apply/Puzzle/LayerChords/SFX_Apply_Puzzle_WoodBells_04.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

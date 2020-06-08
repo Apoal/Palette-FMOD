@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{e9cab009-652a-441a-b9b3-eff0f9e7c2c1}">
 		<property name="assetPath">
-			<value>SFX/Interactions/Apply/Puzzle/SFX_Apply_Puzzle_Harmonics_01.wav</value>
+			<value>SFX/Interactions/Apply/Puzzle/LayerChords/SFX_Apply_Puzzle_Harmonics_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

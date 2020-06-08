@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{de2ef48b-9aaf-48aa-ac03-d761e2ae9bd3}">
 		<property name="assetPath">
-			<value>SFX/Interactions/Collect/SFX_Collect_Woodbells_01.wav</value>
+			<value>SFX/Interactions/Collect/LayerChords/SFX_Collect_Woodbells_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{67b7a52a-d88b-4ef1-ad63-bc6d60886881}">
+		<property name="assetPath">
+			<value>SFX/Interactions/Apply/Puzzle/Full/SFX_Apply_Puzzle_ChordMILARE_03.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.7973333333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d93b1873-55ab-4003-b5f7-2c7715561cd2}</destination>
+		</relationship>
+	</object>
+</objects>

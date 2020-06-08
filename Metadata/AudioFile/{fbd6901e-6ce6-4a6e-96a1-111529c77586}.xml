@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{fbd6901e-6ce6-4a6e-96a1-111529c77586}">
 		<property name="assetPath">
-			<value>SFX/Interactions/Apply/Puzzle/SFX_Apply_Puzzle_Pad_04.wav</value>
+			<value>SFX/Interactions/Apply/Puzzle/LayerChords/SFX_Apply_Puzzle_Pad_04.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

@@ -66,6 +66,9 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{4ecbd2eb-c555-473f-b9c0-01dcc922ff22}">
+		<property name="maxVoices">
+			<value>3</value>
+		</property>
 		<property name="dopplerEnabled">
 			<value>true</value>
 		</property>
@@ -119,6 +122,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{e4858792-b89f-4d5d-8c20-15db56bd933d}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{10ddd811-7090-45a6-9135-9cdedd050096}</destination>
 		</relationship>
@@ -521,7 +527,7 @@
 	<object class="MixerBusFader" id="{0f8387b9-b340-48c6-a8bc-b089fde2928e}" />
 	<object class="SpatialiserEffect" id="{184056ae-4b6f-4926-b33f-19cf4b06156b}">
 		<property name="maximumDistance">
-			<value>15</value>
+			<value>25</value>
 		</property>
 		<property name="soundSize">
 			<value>10</value>
@@ -863,7 +869,7 @@
 			<value>10</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="Automator" id="{ac866b63-2b8a-4fc8-8484-32028a7a8099}">
@@ -908,7 +914,7 @@
 			<value>10</value>
 		</property>
 		<property name="value">
-			<value>3500</value>
+			<value>200</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{e8305ace-9010-4ea2-985c-c98e968478a9}">

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{14817feb-b771-4712-a092-66c16344dd26}">
 		<property name="assetPath">
-			<value>SFX/Interactions/Apply/Items/SFX_Apply_Items_Harmonics_01.wav</value>
+			<value>SFX/Interactions/Apply/Items/LayerNote/SFX_Apply_Items_Harmonics_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

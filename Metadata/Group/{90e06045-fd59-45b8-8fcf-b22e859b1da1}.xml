@@ -4,6 +4,10 @@
 		<property name="name">
 			<value>Musics</value>
 		</property>
+		<relationship name="masters">
+			<destination>{47eb8ff1-be8f-4c6b-b17f-6da33935aa76}</destination>
+			<destination>{a6369b17-39e9-415c-a8fc-1881c8229c98}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{b1a8d74d-5358-4e39-9764-a24a3bf8a18d}</destination>
 		</relationship>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{8540b282-e7a6-4d19-8cf2-87371146d36b}">
+		<property name="assetPath">
+			<value>SFX/Interactions/Apply/Items/Supp/SFX_Apply_Items_Pad_Note_10.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.5333333333333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d93b1873-55ab-4003-b5f7-2c7715561cd2}</destination>
+		</relationship>
+	</object>
+</objects>
