@@ -70,7 +70,13 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{aa849631-488f-45a8-a11f-22f4db3209ca}">
 		<property name="maxVoices">
-			<value>1</value>
+			<value>2</value>
+		</property>
+		<property name="voiceStealing">
+			<value>3</value>
+		</property>
+		<property name="triggerCooldown">
+			<value>200</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{b75cd6fb-cee8-4ba9-8446-bf577c6d8776}" />
@@ -125,7 +131,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{81742d67-276b-493a-bf03-e2e60e434d07}">
 		<property name="volume">
-			<value>-6.5</value>
+			<value>-3</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{fd5aa34f-1a9e-41af-9116-5855cc0300f7}</destination>

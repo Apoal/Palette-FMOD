@@ -66,8 +66,14 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{4ecbd2eb-c555-473f-b9c0-01dcc922ff22}">
+		<property name="isPersistent">
+			<value>true</value>
+		</property>
 		<property name="maxVoices">
 			<value>3</value>
+		</property>
+		<property name="voiceStealing">
+			<value>2</value>
 		</property>
 		<property name="dopplerEnabled">
 			<value>true</value>
@@ -123,7 +129,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{e4858792-b89f-4d5d-8c20-15db56bd933d}">
 		<property name="volume">
-			<value>-3</value>
+			<value>-9</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{10ddd811-7090-45a6-9135-9cdedd050096}</destination>
@@ -914,7 +920,7 @@
 			<value>10</value>
 		</property>
 		<property name="value">
-			<value>200</value>
+			<value>2200</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{e8305ace-9010-4ea2-985c-c98e968478a9}">
