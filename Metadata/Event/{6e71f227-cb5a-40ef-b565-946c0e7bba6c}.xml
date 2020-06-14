@@ -12,7 +12,7 @@
 0.3 = stinger out</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{bc717ac5-107e-45b9-91ce-4e446da17197}</destination>
@@ -401,7 +401,17 @@
 			<destination>{9518f5f7-d694-4727-8672-d4ca5443b910}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{dcaea52a-57f3-4cd5-b900-68e012b3c3e0}" />
+	<object class="MixerBusPanner" id="{dcaea52a-57f3-4cd5-b900-68e012b3c3e0}">
+		<property name="surroundStereoSeparation">
+			<value>77.5457535</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{4a2d5553-93d8-4895-bf3c-f671aabb6dda}" />
 	<object class="Automator" id="{84ed60cc-9b4d-4f7a-b131-7fdc1cd37f6e}">
 		<property name="nameOfPropertyBeingAutomated">
@@ -523,7 +533,7 @@
 	<object class="MixerBusPanner" id="{821e0c19-3ef1-478a-8d25-59ca92b71499}" />
 	<object class="ParameterCondition" id="{005f5bc4-acca-4501-8bb8-5d6bb8329570}">
 		<property name="minimum">
-			<value>0.2199999988079071</value>
+			<value>1.1999999284744263</value>
 		</property>
 		<property name="maximum">
 			<value>4</value>
