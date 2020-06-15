@@ -5,7 +5,7 @@
 			<value>Exit</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a22c7c69-284f-4902-b140-959ad8edee44}</destination>
@@ -53,7 +53,7 @@
 			<destination>{cc565098-5ba3-40de-b4e8-32b0531055c8}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{318ccea4-2821-4e19-8797-8979c8c717c3}</destination>
+			<destination>{8bfd6181-b201-47d8-9c6e-da77afc09ff6}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{806a1b19-c368-4712-8b9f-05ffbcf39be9}" />
@@ -121,7 +121,17 @@
 			<destination>{a4b72ad8-1add-4552-8793-2200bb3c5e69}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{aa5a45e6-8006-4140-b267-08ff361271a7}" />
+	<object class="MixerBusPanner" id="{aa5a45e6-8006-4140-b267-08ff361271a7}">
+		<property name="surroundStereoSeparation">
+			<value>77.1741104</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{7a3a79a1-d3ef-49b5-a121-40ef6005bdeb}" />
 	<object class="FadeCurve" id="{f2b97ce8-1bc0-494a-97ea-57e301cdd636}">
 		<relationship name="startPoint">

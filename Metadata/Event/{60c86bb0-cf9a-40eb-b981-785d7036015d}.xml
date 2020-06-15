@@ -365,7 +365,7 @@
 			<value>0</value>
 		</property>
 		<property name="releaseTime">
-			<value>12000</value>
+			<value>8000</value>
 		</property>
 		<property name="releaseShape">
 			<value>0.587577224</value>

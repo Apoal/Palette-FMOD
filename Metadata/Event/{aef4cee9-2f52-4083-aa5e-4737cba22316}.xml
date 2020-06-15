@@ -5,7 +5,7 @@
 			<value>Highlight</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a22c7c69-284f-4902-b140-959ad8edee44}</destination>
@@ -54,7 +54,7 @@
 			<destination>{1bfe7ee7-907b-4669-8bcf-0f8947ecf916}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{318ccea4-2821-4e19-8797-8979c8c717c3}</destination>
+			<destination>{8bfd6181-b201-47d8-9c6e-da77afc09ff6}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{ed710a04-aa6b-4e2d-ab7e-2e19548f0bf5}" />
@@ -157,7 +157,17 @@
 			<destination>{afa516eb-172e-4485-837d-f24137c69ff2}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{8a75ce14-0f8a-4d57-9828-00bb14a2dc53}" />
+	<object class="MixerBusPanner" id="{8a75ce14-0f8a-4d57-9828-00bb14a2dc53}">
+		<property name="surroundStereoSeparation">
+			<value>81.648941</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{40a4e308-232a-4b09-bec1-ace2de438a13}" />
 	<object class="SingleSound" id="{96015784-58b8-410b-a69e-6adecbad6bc6}">
 		<relationship name="audioFile">
