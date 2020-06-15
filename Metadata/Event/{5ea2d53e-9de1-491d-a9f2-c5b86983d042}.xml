@@ -213,7 +213,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{b52a0994-73e8-4479-b4b6-94f290a9fec1}" />
 	<object class="MixerBusFader" id="{cd971488-faa0-4451-903c-5036e0c0a1d2}" />
-	<object class="SpatialiserEffect" id="{a4a7603b-c591-4f90-9119-036ff27671a9}" />
+	<object class="SpatialiserEffect" id="{a4a7603b-c591-4f90-9119-036ff27671a9}">
+		<property name="maximumDistance">
+			<value>30</value>
+		</property>
+	</object>
 	<object class="ThreeEQEffect" id="{1e091b09-b3d0-45f8-bbd7-0c4fcf4a34da}">
 		<property name="bypass">
 			<value>true</value>

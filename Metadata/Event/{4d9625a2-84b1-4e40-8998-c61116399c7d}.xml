@@ -115,6 +115,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{a0c51366-16c7-4e0b-837e-fc86695f86f0}">
+		<property name="volume">
+			<value>5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{4ceea045-51f2-4c62-9611-c9e9d6ae9700}</destination>
 		</relationship>
@@ -262,7 +265,7 @@
 	<object class="MixerBusFader" id="{bec7f867-3252-4df8-ad7e-7bd00079c57a}" />
 	<object class="ParameterCondition" id="{2f2a48bb-a640-4311-928d-dd70f1830449}">
 		<property name="minimum">
-			<value>5.0999999046325684</value>
+			<value>3.4999997615814209</value>
 		</property>
 		<property name="maximum">
 			<value>12</value>
@@ -418,7 +421,7 @@
 	<object class="SFXReverbEffect" id="{d4bc3471-ee32-4c99-af84-ff2167486803}" />
 	<object class="AutomationPoint" id="{16fcfb5a-caf6-4696-a27c-2d65493cb30f}">
 		<property name="position">
-			<value>6.0295566502463052</value>
+			<value>4</value>
 		</property>
 		<property name="value">
 			<value>2</value>
@@ -480,7 +483,7 @@
 	</object>
 	<object class="AutomationPoint" id="{22edb4ec-f29b-423e-8710-68c3afc89c62}">
 		<property name="position">
-			<value>6</value>
+			<value>4</value>
 		</property>
 		<property name="value">
 			<value>0</value>

@@ -5,7 +5,7 @@
 			<value>MX_Forest</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{bc717ac5-107e-45b9-91ce-4e446da17197}</destination>
@@ -146,11 +146,11 @@
 		<property name="isAsync">
 			<value>true</value>
 		</property>
-		<property name="start">
-			<value>6</value>
-		</property>
 		<property name="length">
 			<value>29.629625000000001</value>
+		</property>
+		<property name="volume">
+			<value>1</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{1818f53b-c0fc-4b34-ac70-67aeeab5739a}</destination>
@@ -276,7 +276,7 @@
 	</object>
 	<object class="TempoMarker" id="{aa3450e3-574e-4c6b-9cf6-a224fb0e54c6}">
 		<property name="position">
-			<value>6</value>
+			<value>0</value>
 		</property>
 		<property name="tempo">
 			<value>81</value>
@@ -307,7 +307,7 @@
 	</object>
 	<object class="TransitionMarker" id="{b920ec06-381a-4503-8594-1766d31bc4c9}">
 		<property name="position">
-			<value>29.703703703703731</value>
+			<value>23.703703703703731</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{2aeeaff4-0240-4e3e-9d72-18fd51b054ce}</destination>
@@ -361,7 +361,17 @@
 			<destination>{8aa41d51-560f-40e0-8d8e-f354d3624c03}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{5f230724-5d66-4956-aff9-a24d8b92537f}" />
+	<object class="MixerBusPanner" id="{5f230724-5d66-4956-aff9-a24d8b92537f}">
+		<property name="surroundStereoSeparation">
+			<value>76.7796936</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{fe2004a3-dcc2-438a-a728-f1d3fa3e71de}" />
 	<object class="MixerBusEffectChain" id="{cbb6380c-9ee9-46e8-802e-ea7e595968f8}">
 		<relationship name="effects">

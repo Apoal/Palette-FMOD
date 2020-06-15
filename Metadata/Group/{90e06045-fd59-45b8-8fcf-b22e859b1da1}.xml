@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
 	<object class="MixerGroup" id="{90e06045-fd59-45b8-8fcf-b22e859b1da1}">
+		<property name="volume">
+			<value>-5.5</value>
+		</property>
 		<property name="name">
 			<value>Musics</value>
 		</property>
@@ -21,8 +24,17 @@
 	<object class="MixerBusEffectChain" id="{b1a8d74d-5358-4e39-9764-a24a3bf8a18d}">
 		<relationship name="effects">
 			<destination>{e7d59ab9-25cd-48be-8f89-b1acd7d3bc9b}</destination>
+			<destination>{05f6772d-8e5a-4b3c-94c4-dc5df577ef34}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1bd089eb-1cab-4966-93ff-7aedeb83c346}" />
 	<object class="MixerBusFader" id="{e7d59ab9-25cd-48be-8f89-b1acd7d3bc9b}" />
+	<object class="SFXReverbEffect" id="{05f6772d-8e5a-4b3c-94c4-dc5df577ef34}">
+		<property name="earlyLateMix">
+			<value>22</value>
+		</property>
+		<property name="wetLevel">
+			<value>-12</value>
+		</property>
+	</object>
 </objects>

@@ -11,7 +11,7 @@
 1 = outro (cinématique fin)</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{bc717ac5-107e-45b9-91ce-4e446da17197}</destination>
@@ -67,7 +67,7 @@
 			<destination>{1dba58c3-0212-49b5-9b13-2491772e28e2}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{318ccea4-2821-4e19-8797-8979c8c717c3}</destination>
+			<destination>{90e06045-fd59-45b8-8fcf-b22e859b1da1}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{873f1448-ba85-47cc-9cc9-757918931daf}" />
@@ -347,7 +347,17 @@
 			<destination>{d34ef0bb-4ee4-4b0a-a878-418751af1dec}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{b07b446c-04a6-486e-8b45-2bb288b0bf23}" />
+	<object class="MixerBusPanner" id="{b07b446c-04a6-486e-8b45-2bb288b0bf23}">
+		<property name="surroundStereoSeparation">
+			<value>76.7796936</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{f7b7b54f-5bd8-4a3a-93e3-95f828c5ca47}" />
 	<object class="MixerBusEffectChain" id="{86b3038e-e08f-4d67-8faf-c3e09c778c9e}">
 		<relationship name="effects">
